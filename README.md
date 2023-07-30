@@ -14,11 +14,13 @@ The project was developed using the following environments.
 | pytorch | `1.13.1` |
 
 **Install**
+
 Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
 **Usage**
+
 To train the model, run the following command:
 ```
 bash ./run.sh <export directory> <data directory> <experiment name>
