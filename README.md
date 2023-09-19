@@ -1,6 +1,6 @@
 # DeepPVMap
 ## Introduction
-This is an open source code of paper **DeepPVMap: Deep Photovoltaic Map for Efficient Segmentation of Solar Panels from Low- Resolution Aerial Imagery**. 
+This is an open source code of paper **DeepPVMap: Deep Photovoltaic Map for Efficient Segmentation of Solar Panels from Low-Resolution Aerial Imagery**. 
 
 ## Environment compatibilities
 
