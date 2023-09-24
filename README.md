@@ -26,7 +26,7 @@ bash ./run.sh <export directory> <data directory> <experiment name>
 ```
 **Result**
 
-Photovoltaic (PV) panels predicted using orthophotos of Taiwan from the National Land Surveying and Cartography Center (NLSC), collected in June 2022.
+Photovoltaic (PV) panels predicted using orthophotos from Taiwan National Land Surveying and Cartography Center (NLSC), collected in June 2022.
 
 <img src="https://github.com/Comet0322/DeepPVMap/assets/89444006/9555d7f1-578c-4c4e-947e-9e6a758ac1c8" alt="pred_pv_distribution" width="400"/>
 
