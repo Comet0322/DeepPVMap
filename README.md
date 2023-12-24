@@ -24,6 +24,9 @@ To train the model, run the following command:
 ```
 bash ./run.sh <export directory> <data directory> <experiment name>
 ```
+
+**The map generation script is under development.**
+
 **Result**
 
 Photovoltaic (PV) panels predicted using orthophotos from Taiwan National Land Surveying and Cartography Center (NLSC), collected in June 2022.
