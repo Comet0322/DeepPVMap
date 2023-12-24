@@ -25,7 +25,7 @@ To train the model, run the following command:
 bash ./run.sh <export directory> <data directory> <experiment name>
 ```
 
-**The map generation script is under development.**
+<mark>The map generation script is under development.</mark>
 
 **Result**
 
