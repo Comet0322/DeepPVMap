@@ -1,16 +1,5 @@
-import os
-import shutil
 import argparse
 from collections.abc import MutableMapping
-
-file_list = [
-    "data.py", "system.py", "transform.py", "model.py", "main.py", "conf.yml"
-]
-
-
-def save_files(exp_dir):
-    for file in file_list:
-        shutil.copy(file, exp_dir + "/" + os.path.basename(file))
 
 
 def flatten_dict(d, parent_key="", sep="_"):
@@ -155,6 +144,7 @@ def parse_args_as_dict(parser, return_plain_args=False, args=None):
             for a in group._group_actions
         }
         args_dic[group.title] = group_dict
+    # print(args_dic.keys())
     args_dic["main_args"] = args_dic["options"]
     del args_dic["options"]
     if return_plain_args:
