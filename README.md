@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 To train the model, run the following command:
 ```
-bash ./run.sh <export directory> <data directory> <experiment name>
+python main.py --name <experiment name> --exp_dir <export directory> --data_dir <data directory>
 ```
 
 <mark>The map generation script is under development.</mark>
