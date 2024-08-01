@@ -170,7 +170,7 @@ def main(conf):
         checkpoint_dir,
         monitor="val_panel_IOU",
         mode="max",
-        save_top_k=-1,
+        save_top_k=1,
         verbose=False,
     )
     callbacks.append(checkpoint)
@@ -233,7 +233,7 @@ if __name__ == "__main__":
         default="1+7,4,5,6,8,9,11,changhua,mingjian_s",
         help="comma separated list of areas to process",
     )
-    with open("local/conf.yml", encoding="utf8") as f:
+    with open("conf.yml", encoding="utf8") as f:
         def_conf = yaml.safe_load(f)
     parser = prepare_parser_from_dict(def_conf, parser=parser)
     arg_dic, plain_args = parse_args_as_dict(parser, return_plain_args=True)
