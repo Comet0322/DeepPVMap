@@ -20,10 +20,22 @@ pip install -r requirements.txt
 ```
 **Usage**
 
-To train the model, run the following command:
-```
-python main.py --name <experiment name> --exp_dir <export directory> --data_dir <data directory>
-```
+1. Download the dataset and extract it.
+
+   [Download Link](https://drive.google.com/file/d/1NB3mbEkrlG9Tm-EBYqsENPZESk7V0QNe/view?usp=sharing)
+
+2. Set `conf.yml` model.encoder. Options are:
+    - "timm-efficientnet-b0"
+    - "timm-efficientnet-b5"
+    - "timm-efficientnet-b7"
+    - "mit_b0"
+    - "mit_b2"
+    - "mit_b5"
+
+3. Run the following command to train the model:
+    ```sh
+    python main.py --name <experiment name> --exp_dir <export directory> --data_dir <data directory>
+    ```
 
 <mark>The map generation script is under development.</mark>
 
@@ -37,4 +49,4 @@ Photovoltaic (PV) panels predicted using orthophotos from Taiwan National Land S
 
 **Model Checkpoints**
 
-https://drive.google.com/drive/folders/1gA7myvjJGkLaLbHgz-mhQbJq4IAYgL8p?usp=drive_link
+  [Download Link](https://drive.google.com/drive/folders/1gA7myvjJGkLaLbHgz-mhQbJq4IAYgL8p?usp=drive_link)
